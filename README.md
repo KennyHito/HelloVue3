@@ -13,7 +13,7 @@ https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=6&spm_id_from=pageDriver&vd_sourc
 
 
 ```
-温馨提示: 亲测node版本建议高于18!
+温馨提示: 亲测node版本建议高于18!否则npm run dev报错!
 ```
 
 # 1. Vue3简介
