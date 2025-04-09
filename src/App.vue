@@ -1,20 +1,27 @@
+<!-- 结构 -->
 <template>
-  <div class="app">
-    <h2>我是App组件{{ x }}</h2>
-    <Hello/>
-    <Child/>
+  <div class="app-box">
+    <span>你好,世界!</span>
   </div>
 </template>
 
-<script setup lang="ts" name="App">
-  import Child from './Child.vue'
+<!-- 逻辑处理 -->
+<script lang="ts">
+// 引入其他组件
+
+export default {
+  name: 'App',
+}
 </script>
 
-<style>
-  .app {
-    background-color: #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px;
-  }
+
+<!-- 样式 -->
+<style scoped>
+.app-box {
+  padding: 20px;
+  color: white;
+  background-color: orange;
+  height: 100px;
+  border-radius: 10px;
+}
 </style>
