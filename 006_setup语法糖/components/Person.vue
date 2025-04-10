@@ -9,6 +9,7 @@
   </div>
 </template>
 
+<!-- 使用name="Person"这种方式,必须安装插件vite-plugin-vue-setup-extend,可参考readme.md内教程 -->
 <script lang="ts" setup name="Person">
 // 数据，原来是写在data中的，此时的name、age、tel都不是响应式的数据
 let name = '张三'
