@@ -163,6 +163,11 @@ npm create vue@latest
 
 <img src="images/image-20231218085906380.png" alt="image-20231218085906380" style="zoom:42%;" /> 
 
+- 目前发现该插件已不再兼容,请下载下面的插件
+
+<img src="images/new_1.png" alt="new_1" style="zoom:42%;" /> 
+<img src="images/new_2.png" alt="new_2" style="zoom:42%;" /> 
+
 总结：
 
 - `Vite` 项目中，`index.html` 是项目的入口文件，在项目最外层。
