@@ -8,32 +8,34 @@
 </template>
 
 <script lang="ts" setup name="Person">
-  import {ref} from 'vue'
+import { ref } from 'vue'
 
-  // 创建一个title2，用于存储ref标记的内容
-  let title2 = ref()
-  let a = ref(0)
-  let b = ref(1)
-  let c = ref(2)
+// 创建一个title2，用于存储ref标记的内容
+let title2 = ref()
+let a = ref(0)
+let b = ref(1)
+let c = ref(2)
 
-  function showLog(){
-    console.log(title2.value)
-  }
+function showLog() {
+  console.log(title2.value)
+}
 
-  defineExpose({a,b,c})
+defineExpose({ a, b, c, showLog })
 </script>
 
 <style scoped>
-  .person {
-    background-color: skyblue;
-    box-shadow: 0 0 10px;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  button {
-    margin: 0 5px;
-  }
-  li {
-    font-size: 20px;
-  }
+.person {
+  background-color: skyblue;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+button {
+  margin: 0 5px;
+}
+
+li {
+  font-size: 20px;
+}
 </style>
