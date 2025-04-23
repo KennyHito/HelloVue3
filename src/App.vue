@@ -2,17 +2,20 @@
 <template>
   <div class="app-box">
     <span>你好,世界!</span>
-    <Test />
+    <TestOne />
+    <TestTwo />
   </div>
 </template>
 
 <!-- 逻辑处理 -->
 <script lang="ts">
 // 引入其他组件
-import Test from "@/components/Test.vue"
+import TestOne from "@/components/TestOne.vue"
+import TestTwo from "./components/TestTwo.vue";
 export default {
   components: {
-    Test
+    TestOne,
+    TestTwo
   },
   name: 'App',
 }

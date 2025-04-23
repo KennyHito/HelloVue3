@@ -12,29 +12,31 @@
 </template>
 
 <script setup lang="ts" name="Count">
-  import { ref } from "vue";
-  // 数据
-  let sum = ref(1) // 当前求和
-  let n = ref(1) // 用户选择的数字
+import { ref } from "vue";
+// 数据
+let sum = ref(1) // 当前求和
+let n = ref(1) // 用户选择的数字
 
-  // 方法
-  function add(){
-    sum.value += n.value
-  }
-  function minus(){
-    sum.value -= n.value
-  }
+// 方法
+function add() {
+  sum.value += n.value
+}
+function minus() {
+  sum.value -= n.value
+}
 </script>
 
 <style scoped>
-  .count {
-    background-color: skyblue;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px;
-  }
-  select,button {
-    margin: 0 5px;
-    height: 25px;
-  }
+.count {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+select,
+button {
+  margin: 0 5px;
+  height: 25px;
+}
 </style>
