@@ -12,14 +12,14 @@
 </template>
 
 <script setup lang="ts" name="Count">
-  import { ref,reactive } from "vue";
-  import {useCountStore} from '@/store/count'
+import { ref, reactive } from "vue";
+import { useCountStore } from '../store/count'
 
-  const countStore = useCountStore()
+const countStore = useCountStore()
 
-  // 以下两种方式都可以拿到state中的数据
-  // console.log('@@@',countStore.sum)
-  // console.log('@@@',countStore.$state.sum)
+// 以下两种方式都可以拿到state中的数据
+// console.log('@@@',countStore.sum)
+// console.log('@@@',countStore.$state.sum)
 
 /*   let obj = reactive({
     a:1,
@@ -32,26 +32,28 @@
   console.log(obj.c) */
 
 
-  // 数据
-  let n = ref(1) // 用户选择的数字
-  // 方法
-  function add(){
-    
-  }
-  function minus(){
-    
-  }
+// 数据
+let n = ref(1) // 用户选择的数字
+// 方法
+function add() {
+
+}
+function minus() {
+
+}
 </script>
 
 <style scoped>
-  .count {
-    background-color: skyblue;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px;
-  }
-  select,button {
-    margin: 0 5px;
-    height: 25px;
-  }
+.count {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+select,
+button {
+  margin: 0 5px;
+  height: 25px;
+}
 </style>
