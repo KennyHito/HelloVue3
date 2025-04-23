@@ -26,9 +26,9 @@ export default {
 <style scoped>
 .app-box {
   padding: 20px;
-  color: white;
-  background-color: orange;
+  background-color: skyblue;
   height: 100px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 </style>
