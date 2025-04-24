@@ -1,6 +1,6 @@
 <!-- 结构 -->
 <template>
-  <div>{{ a }}</div>
+  <div>我是TestOne组件,{{ a }}</div>
 </template>
 
 <!-- 逻辑处理 -->

@@ -1,7 +1,7 @@
 <!-- 结构 -->
 <template>
   <div class="app-box">
-    <span>{{ msg }}</span>
+    <span>我是App组件,{{ msg }}</span>
     <TestOne />
     <TestTwo />
   </div>
@@ -24,6 +24,6 @@ let msg = ref("你好,世界!")
   padding: 20px;
   background-color: skyblue;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px;
 }
 </style>
