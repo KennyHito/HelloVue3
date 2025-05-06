@@ -28,7 +28,7 @@ let games = reactive([
   { id: 'asgytdfats04', name: '斗罗大陆1' }
 ])
 let imgUrl = ref('https://z1.ax1x.com/2023/11/19/piNxLo4.jpg')
-let videoUrl = ref('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4')
+let videoUrl = ref('https://media.w3.org/2010/05/sintel/trailer.mp4')
 
 </script>
 
