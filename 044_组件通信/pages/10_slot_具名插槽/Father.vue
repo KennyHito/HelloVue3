@@ -23,9 +23,11 @@
       </Category>
 
       <Category>
+        <!-- v-slot:s2 可以简写为 #s2 -->
         <template #s2>
           <video video :src="videoUrl" controls></video>
         </template>
+        <!-- v-slot:s1 可以简写为 #s1 -->
         <template #s1>
           <h2>今日影视推荐</h2>
         </template>
