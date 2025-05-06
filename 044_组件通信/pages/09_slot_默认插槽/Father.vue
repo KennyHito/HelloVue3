@@ -22,10 +22,10 @@ import Category from './Category.vue'
 import { ref, reactive } from "vue";
 
 let games = reactive([
-  { id: 'asgytdfats01', name: '英雄联盟' },
-  { id: 'asgytdfats02', name: '王者农药' },
-  { id: 'asgytdfats03', name: '红色警戒' },
-  { id: 'asgytdfats04', name: '斗罗大陆' }
+  { id: 'asgytdfats01', name: '英雄联盟1' },
+  { id: 'asgytdfats02', name: '王者农药1' },
+  { id: 'asgytdfats03', name: '红色警戒1' },
+  { id: 'asgytdfats04', name: '斗罗大陆1' }
 ])
 let imgUrl = ref('https://z1.ax1x.com/2023/11/19/piNxLo4.jpg')
 let videoUrl = ref('http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4')

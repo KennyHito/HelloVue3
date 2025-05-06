@@ -12,10 +12,13 @@
 				<router-link active-class="active" class="list-group-item" to="/mitt">3. mitt</router-link>
 				<router-link active-class="active" class="list-group-item" to="/model">4. v-model</router-link>
 				<router-link active-class="active" class="list-group-item" to="/attrs">5. $attrs</router-link>
-				<router-link active-class="active" class="list-group-item" to="/ref-parent">6. <span class="small">$refs、$parent</span></router-link>
+				<router-link active-class="active" class="list-group-item" to="/ref-parent">6. <span
+						class="small">$refs、$parent</span></router-link>
 				<router-link active-class="active" class="list-group-item" to="/provide-inject">7. provide、inject</router-link>
 				<router-link active-class="active" class="list-group-item" to="/pinia">8. pinia</router-link>
-				<router-link active-class="active" class="list-group-item" to="/slot">9. slot</router-link>
+				<router-link active-class="active" class="list-group-item" to="/slot1">9. slot默认插槽</router-link>
+				<router-link active-class="active" class="list-group-item" to="/slot2">10. slot具名插槽</router-link>
+				<router-link active-class="active" class="list-group-item" to="/slot3">11. slot作用域插槽</router-link>
 			</div>
 			<div class="col-xs-9 col-md-9 col-lg-9 col-xl-9">
 				<div class="panel-body">
@@ -31,15 +34,17 @@
 </script>
 
 <style>
-	.wraper .title {
-		padding: 20px;
-		text-align: center;
-		min-width: 610px;
-	}
-	.wraper .small{
-		font-size: 15px;
-	}
-	.wraper .list-group-item {
-		min-width: 230px;
-	}
+.wraper .title {
+	padding: 20px;
+	text-align: center;
+	min-width: 610px;
+}
+
+.wraper .small {
+	font-size: 15px;
+}
+
+.wraper .list-group-item {
+	min-width: 230px;
+}
 </style>
