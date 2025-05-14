@@ -2637,3 +2637,5 @@ const Child = defineAsyncComponent(()=>import('./Child.vue'))
 - 移除了`$children` 实例 `propert`。
 
   ......
+
+参考链接: [https://v3-migration.vuejs.org/zh/breaking-changes/](https://v3-migration.vuejs.org/zh/breaking-changes/)
